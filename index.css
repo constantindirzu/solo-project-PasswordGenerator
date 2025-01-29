@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Orbitron:wght@400..900&display=swap");
+body {
+  margin: 0;
+  background-color: #1f2937;
+  color: #ffffff;
+  font-family: "Inter", serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.header {
+  min-width: 446px;
+}
+.header__title {
+  font-family: "Karla", serif;
+  font-weight: bolder;
+  font-size: 40px;
+  margin: 0;
+  letter-spacing: -2.5%;
+}
+.header__subTitle {
+  color: #d5d4d8;
+  font-size: 20px;
+  margin: 8 auto;
+}
+
+.color_white {
+  color: #ffffff;
+}
+.color_green {
+  color: #4adf86;
+}
+/************** content **************/
+.content {
+  min-width: 446px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.content__generate {
+  padding-bottom: 35px;
+  border-bottom: 1px solid #2f3e53;
+}
+.btn {
+  background-color: #10b981;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.content__geratetResult {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-top: 74px;
+}
+.content__geratetResult__password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #273549;
+  height: 39px;
+  width: 45%;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #55f991;
+}
