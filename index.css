@@ -18,13 +18,13 @@ body {
 .header__title {
   font-family: "Karla", serif;
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 2.5rem;
   margin: 0;
   letter-spacing: -2.5%;
 }
 .header__subTitle {
   color: #d5d4d8;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 8 auto;
 }
 
@@ -52,7 +52,7 @@ body {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
   margin-top: 20px;
 }
 .content__geratetResult {
@@ -69,6 +69,6 @@ body {
   height: 39px;
   width: 45%;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1rem;
   color: #55f991;
 }
